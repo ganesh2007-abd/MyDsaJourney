@@ -1,4 +1,17 @@
+/*
 
+My approach
+
+The questioner said we can count the sub array morethan once ,So we can just find the max value subarray
+and multiply it by given K value
+
+To find the max subarray value ->
+1)First we find the max element in the array
+2)Next traverse the both sides of that element to get their respective minimums
+3)fing leftdiff and rightdiff and find max among it
+4)return the maxvalue*k
+
+*/
 
 #include <bits/stdc++.h>
 #include <algorithm>
