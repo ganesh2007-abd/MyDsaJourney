@@ -7,7 +7,6 @@ Approach
 3)start from head with new var ,traverse through it and update max along
 
 
-
 */
 
 #include <bits/stdc++.h>
