@@ -1,3 +1,20 @@
+
+/*
+
+Approach
+
+All you have to do is swap a pair of nodes
+(reversing) and connect this new swapped node from prev pair of nodes
+
+
+The problem is to swap nodes in pairs-->
+1)So for swapping a pair of node 1,2 we should have a pointer on 2 and 1.I marked them as p and q
+2)After swapping the nodes we have to connect the before pair and present pair of nodes.So always maintain a prev node to connect
+3)There are some things to be initialised before the 1st run of loop.So use a bool and dowhile loop to execute it correctly
+
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 struct ListNode
