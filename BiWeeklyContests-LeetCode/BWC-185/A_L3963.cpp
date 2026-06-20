@@ -1,3 +1,16 @@
+/*
+
+Approach
+
+1)initialise a matrix with given size all of '#'
+2)start from 0th row and go on and make 2 consecutive dots in every row and for each row divert them by 1 pos in x-axis
+3)after that you may get 2 edge case fails that is (i) rows may be remained (ii) cols may be remained
+4)to identify which edge case failed -- maintain 2 vars -- lastfilledi and lastfilledj
+5)if the bottom right cell is not '.' and check which of them (rows or cols) are remained and fill the one way '.' in there!
+6)Convert them to vector of strings from vector of vector of chars
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
