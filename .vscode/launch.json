@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/MyDsaJourney/DailyQuestions",
-      "program": "d:/MyDsaJourney/DailyQuestions/build/Debug/outDebug",
+      "cwd": "d:/MyDsaJourney/LinkedLists-LeetCode",
+      "program": "d:/MyDsaJourney/LinkedLists-LeetCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
