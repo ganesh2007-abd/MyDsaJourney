@@ -1,7 +1,6 @@
 // approach
 
 /*
-
 1)we maintian a freq map to check the presentele+k and presentele-k are already seen
 2)so we first consider not_take exploration
 3)for take step -- we take that element only when that element+k and eleemnt-k are present in the map or not..if both are not present the only take the
